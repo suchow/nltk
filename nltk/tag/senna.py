@@ -10,8 +10,8 @@
 Senna POS tagger, NER Tagger, Chunk Tagger
 
 The input is:
-- path to the directory that contains SENNA executables. If the path is incorrect, 
-   SennaTagger will automatically search for executable file specified in SENNA environment variable 
+- path to the directory that contains SENNA executables. If the path is incorrect,
+   SennaTagger will automatically search for executable file specified in SENNA environment variable
 - (optionally) the encoding of the input data (default:utf-8)
 
     >>> from nltk.tag import SennaTagger
